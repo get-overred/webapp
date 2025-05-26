@@ -1,0 +1,1 @@
+- you cannot create a bitmap from a svg (especially in service worker)

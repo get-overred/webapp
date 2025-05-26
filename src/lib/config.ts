@@ -1,2 +1,2 @@
-// export const ID = "lcmocoacjelocjnhnncinnjaadekagbo"
-export const ID = "agedonogdeegimiglfjlchknomkdhjhb"
+export const ID = "lcmocoacjelocjnhnncinnjaadekagbo"
+export const debugID = "agedonogdeegimiglfjlchknomkdhjhb"

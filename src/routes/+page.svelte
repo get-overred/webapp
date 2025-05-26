@@ -8,13 +8,12 @@
     import { exportToDOCX } from "$lib/export-docx";
     import { exportToPDF } from "$lib/export-pdf";
     import { exportToHTML } from "$lib/export-html";
-    import { ID } from "$lib/config";
+    import { ID, debugID } from "$lib/config";
     import EditorHeader from "$lib/components/core/editor-header.svelte";
     import { access, VARIABLES } from "../store";
     import type { FLOW } from "$lib/components/func";
     import ExportButton from "$lib/components/res/export_button.svelte";
     import { Jellyfish } from "svelte-loading-spinners";
-    import { navigating } from "$app/stores";
 
     let scroll_to_export: boolean = false;
     let startedUp: boolean = false;
@@ -24,15 +23,15 @@
     let currFlow: FLOW | null = null;
     let _wholeFlow: Array<FLOW> | null = null;
 
-    onMount(() => {
-        console.log("starting up ...");
-        startUp();
-    });
+    onMount(() => startUp());
     async function startUp() {
         try {
-            const res = await chrome.runtime.sendMessage(ID, {
-                action: "webapp_transfer",
-            });
+            const res = await chrome.runtime.sendMessage(
+                import.meta.env.DEV ? debugID : ID,
+                {
+                    action: "webapp_transfer",
+                },
+            );
             if (res.flow) {
                 const flow = JSON.parse(res.flow);
                 if (flow instanceof Array) {
@@ -64,10 +63,13 @@
                 _wholeFlow.pop();
                 _wholeFlow.push(currFlow);
             }
-            const res = await chrome.runtime.sendMessage(ID, {
-                action: "flow_override",
-                data: _wholeFlow,
-            });
+            const res = await chrome.runtime.sendMessage(
+                import.meta.env.DEV ? debugID : ID,
+                {
+                    action: "flow_override",
+                    data: _wholeFlow,
+                },
+            );
             console.log(res);
         }
     }
@@ -105,7 +107,7 @@
             <Document VARIABLES={$VARIABLES} bind:currFlow />
         </div>
 
-        <ExportButton on:export={() => scroll_to_export = true} />
+        <ExportButton on:export={() => (scroll_to_export = true)} />
 
         <DocumentSize
             docWidth={$VARIABLES.document_width}
