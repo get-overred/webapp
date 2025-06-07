@@ -1,0 +1,211 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "name": "internal",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js"
+    ]
+  },
+  "_ArrowUp.svelte_svelte_type_style_lang.js": {
+    "file": "chunks/ArrowUp.svelte_svelte_type_style_lang.js",
+    "name": "ArrowUp.svelte_svelte_type_style_lang",
+    "imports": [
+      "_ssr.js"
+    ],
+    "css": [
+      "_app/immutable/assets/ArrowUp.DKV0HXU3.css"
+    ]
+  },
+  "_all.min.js": {
+    "file": "_app/immutable/assets/all.ZOt6yzgZ.css",
+    "src": "_all.min.js"
+  },
+  "_client.js": {
+    "file": "chunks/client.js",
+    "name": "client",
+    "imports": [
+      "_exports.js",
+      "_ssr2.js"
+    ]
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports"
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "name": "index",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "name": "internal",
+    "imports": [
+      "_ssr.js",
+      "_ssr2.js"
+    ]
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js",
+    "name": "ssr"
+  },
+  "_ssr2.js": {
+    "file": "chunks/ssr2.js",
+    "name": "ssr"
+  },
+  "_stores.js": {
+    "file": "chunks/stores.js",
+    "name": "stores",
+    "imports": [
+      "_ssr.js",
+      "_client.js"
+    ]
+  },
+  "node_modules/.pnpm/@fortawesome+fontawesome-free@6.7.2/node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf": {
+    "file": "_app/immutable/assets/fa-brands-400.D1LuMI3I.ttf",
+    "src": "node_modules/.pnpm/@fortawesome+fontawesome-free@6.7.2/node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf"
+  },
+  "node_modules/.pnpm/@fortawesome+fontawesome-free@6.7.2/node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2": {
+    "file": "_app/immutable/assets/fa-brands-400.D_cYUPeE.woff2",
+    "src": "node_modules/.pnpm/@fortawesome+fontawesome-free@6.7.2/node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2"
+  },
+  "node_modules/.pnpm/@fortawesome+fontawesome-free@6.7.2/node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf": {
+    "file": "_app/immutable/assets/fa-regular-400.DZaxPHgR.ttf",
+    "src": "node_modules/.pnpm/@fortawesome+fontawesome-free@6.7.2/node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf"
+  },
+  "node_modules/.pnpm/@fortawesome+fontawesome-free@6.7.2/node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2": {
+    "file": "_app/immutable/assets/fa-regular-400.BjRzuEpd.woff2",
+    "src": "node_modules/.pnpm/@fortawesome+fontawesome-free@6.7.2/node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2"
+  },
+  "node_modules/.pnpm/@fortawesome+fontawesome-free@6.7.2/node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf": {
+    "file": "_app/immutable/assets/fa-solid-900.D0aA9rwL.ttf",
+    "src": "node_modules/.pnpm/@fortawesome+fontawesome-free@6.7.2/node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf"
+  },
+  "node_modules/.pnpm/@fortawesome+fontawesome-free@6.7.2/node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2": {
+    "file": "_app/immutable/assets/fa-solid-900.CTAAxXor.woff2",
+    "src": "node_modules/.pnpm/@fortawesome+fontawesome-free@6.7.2/node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2"
+  },
+  "node_modules/.pnpm/@fortawesome+fontawesome-free@6.7.2/node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.ttf": {
+    "file": "_app/immutable/assets/fa-v4compatibility.CCth-dXg.ttf",
+    "src": "node_modules/.pnpm/@fortawesome+fontawesome-free@6.7.2/node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.ttf"
+  },
+  "node_modules/.pnpm/@fortawesome+fontawesome-free@6.7.2/node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2": {
+    "file": "_app/immutable/assets/fa-v4compatibility.C9RhG_FT.woff2",
+    "src": "node_modules/.pnpm/@fortawesome+fontawesome-free@6.7.2/node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2"
+  },
+  "node_modules/.pnpm/@sveltejs+kit@2.20.7_@sveltejs+vite-plugin-svelte@3.1.2_svelte@4.2.19_vite@5.4.18_@types+node_wluren3rnjncui7v6d2azhi3pq/node_modules/@sveltejs/kit/src/runtime/components/svelte-4/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/.pnpm/@sveltejs+kit@2.20.7_@sveltejs+vite-plugin-svelte@3.1.2_svelte@4.2.19_vite@5.4.18_@types+node_wluren3rnjncui7v6d2azhi3pq/node_modules/@sveltejs/kit/src/runtime/components/svelte-4/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_stores.js"
+    ]
+  },
+  "node_modules/.pnpm/@sveltejs+kit@2.20.7_@sveltejs+vite-plugin-svelte@3.1.2_svelte@4.2.19_vite@5.4.18_@types+node_wluren3rnjncui7v6d2azhi3pq/node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "name": "index",
+    "src": "node_modules/.pnpm/@sveltejs+kit@2.20.7_@sveltejs+vite-plugin-svelte@3.1.2_svelte@4.2.19_vite@5.4.18_@types+node_wluren3rnjncui7v6d2azhi3pq/node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_exports.js",
+      "_index.js"
+    ]
+  },
+  "src/lib/assets/cursor.png": {
+    "file": "_app/immutable/assets/cursor.CeMU_J93.png",
+    "src": "src/lib/assets/cursor.png"
+  },
+  "src/lib/assets/for_elise.mp3": {
+    "file": "_app/immutable/assets/for_elise.nnwpvAHm.mp3",
+    "src": "src/lib/assets/for_elise.mp3"
+  },
+  "src/lib/assets/overred_og.png": {
+    "file": "_app/immutable/assets/overred_og.Gbt4o3ka.png",
+    "src": "src/lib/assets/overred_og.png"
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "name": "entries/pages/_layout.svelte",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_ArrowUp.svelte_svelte_type_style_lang.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.CDM4SVzZ.css"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "name": "entries/pages/_page.svelte",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_ArrowUp.svelte_svelte_type_style_lang.js",
+      "_client.js"
+    ],
+    "css": [
+      "_app/immutable/assets/all.ZOt6yzgZ.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/fa-brands-400.D_cYUPeE.woff2",
+      "_app/immutable/assets/fa-brands-400.D1LuMI3I.ttf",
+      "_app/immutable/assets/fa-regular-400.BjRzuEpd.woff2",
+      "_app/immutable/assets/fa-regular-400.DZaxPHgR.ttf",
+      "_app/immutable/assets/fa-solid-900.CTAAxXor.woff2",
+      "_app/immutable/assets/fa-solid-900.D0aA9rwL.ttf",
+      "_app/immutable/assets/fa-v4compatibility.C9RhG_FT.woff2",
+      "_app/immutable/assets/fa-v4compatibility.CCth-dXg.ttf"
+    ]
+  },
+  "src/routes/+page.ts": {
+    "file": "entries/pages/_page.ts.js",
+    "name": "entries/pages/_page.ts",
+    "src": "src/routes/+page.ts",
+    "isEntry": true
+  },
+  "src/routes/[idx]/+page.svelte": {
+    "file": "entries/pages/_idx_/_page.svelte.js",
+    "name": "entries/pages/_idx_/_page.svelte",
+    "src": "src/routes/[idx]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_index.js",
+      "_ArrowUp.svelte_svelte_type_style_lang.js",
+      "_stores.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.ByD5O6Tv.css",
+      "_app/immutable/assets/all.ZOt6yzgZ.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/fa-brands-400.D_cYUPeE.woff2",
+      "_app/immutable/assets/fa-brands-400.D1LuMI3I.ttf",
+      "_app/immutable/assets/fa-regular-400.BjRzuEpd.woff2",
+      "_app/immutable/assets/fa-regular-400.DZaxPHgR.ttf",
+      "_app/immutable/assets/fa-solid-900.CTAAxXor.woff2",
+      "_app/immutable/assets/fa-solid-900.D0aA9rwL.ttf",
+      "_app/immutable/assets/fa-v4compatibility.C9RhG_FT.woff2",
+      "_app/immutable/assets/fa-v4compatibility.CCth-dXg.ttf"
+    ]
+  },
+  "src/routes/help/+page.svelte": {
+    "file": "entries/pages/help/_page.svelte.js",
+    "name": "entries/pages/help/_page.svelte",
+    "src": "src/routes/help/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ]
+  }
+}

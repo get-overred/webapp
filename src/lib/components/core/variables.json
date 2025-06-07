@@ -1,0 +1,318 @@
+[
+    {
+        "title": "DOCUMENT",
+        "inputs": [
+            {
+                "id": "document_bg_color",
+                "type": "color",
+                "label": "Background Color"
+            },
+            {
+                "id": "document_padding",
+                "type": "range",
+                "label": "Padding",
+                "range_min": "0",
+                "range_max": "100",
+                "range_step": "5"
+            },
+            {
+                "id": "document_space_y",
+                "type": "range",
+                "label": "Y-Spacing",
+                "range_min": "0",
+                "range_max": "200",
+                "range_step": "5"
+            },
+            {
+                "id": "document_width",
+                "type": "text",
+                "label": "Width"
+            },
+            {
+                "id": "document_height",
+                "type": "text",
+                "label": "Height"
+            },
+            {
+                "id": "editor_scale",
+                "display": "NO"
+            }
+        ]
+    },
+    {
+        "title": "TEXT",
+        "inputs": [
+            {
+                "id": "document_txt_font",
+                "type": "select",
+                "label": "Text Fonts",
+                "selectors": [
+                    "Helvetica",
+                    "Arial",
+                    "Times New Roman",
+                    "Georgia",
+                    "Trebuchet MS",
+                    "Verdana",
+                    "Monaco"
+                ]
+            },
+            {
+                "id": "document_h_txt_color",
+                "type": "color",
+                "label": "Heading Color"
+            },
+            {
+                "id": "document_h_txt_size",
+                "type": "text",
+                "label": "Heading Size"
+            },
+            {
+                "id": "document_h_txt_weight",
+                "type": "range",
+                "label": "Heading Weight",
+                "range_min": "100",
+                "range_max": "900",
+                "range_step": "100"
+            },
+            {
+                "id": "document_h_txt_align",
+                "type": "multi_button",
+                "label": "Heading Align",
+                "selectors": [
+                    {
+                        "value": "start",
+                        "icon": "fa-solid fa-align-left"
+                    },
+                    {
+                        "value": "center",
+                        "icon": "fa-solid fa-align-center"
+                    },
+                    {
+                        "value": "end",
+                        "icon": "fa-solid fa-align-right"
+                    },
+                    {
+                        "value": "justify",
+                        "icon": "fa-solid fa-align-justify"
+                    }
+                ]
+            },
+            {
+                "id": "document_p_txt_color",
+                "type": "color",
+                "label": "Body Color"
+            },
+            {
+                "id": "document_p_txt_size",
+                "type": "text",
+                "label": "Body Size"
+            },
+            {
+                "id": "document_p_txt_weight",
+                "type": "range",
+                "label": "Body Weight",
+                "range_min": "100",
+                "range_max": "900",
+                "range_step": "100"
+            },
+            {
+                "id": "document_p_txt_align",
+                "type": "multi_button",
+                "label": "Body Align",
+                "selectors": [
+                    {
+                        "value": "start",
+                        "icon": "fa-solid fa-align-left"
+                    },
+                    {
+                        "value": "center",
+                        "icon": "fa-solid fa-align-center"
+                    },
+                    {
+                        "value": "end",
+                        "icon": "fa-solid fa-align-right"
+                    },
+                    {
+                        "value": "justify",
+                        "icon": "fa-solid fa-align-justify"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "SCREENSHOT",
+        "inputs": [
+            {
+                "id": "target_bg_color",
+                "type": "color",
+                "label": "Target Color"
+            },
+            {
+                "id": "target_border_radius",
+                "type": "range",
+                "label": "Target Border-Radius",
+                "range_min": "0",
+                "range_max": "100",
+                "range_step": "5"
+            },
+            {
+                "id": "target_no_fillout",
+                "type": "checkbox",
+                "label": "Target only Border"
+            },
+            {
+                "id": "target_replace_cursor",
+                "type": "checkbox",
+                "label": "Target as Cursor"
+            },
+            {
+                "id": "target_enable_arrow",
+                "type": "checkbox",
+                "label": "Point an Arrow"
+            },
+            {
+                "id": "image_border_radius",
+                "type": "range",
+                "label": "Image Border-Radius",
+                "range_min": "0",
+                "range_max": "500",
+                "range_step": "25"
+            },
+            {
+                "id": "target_scale_factor",
+                "type": "range",
+                "label": "Scale to Target",
+                "range_min": "1.0",
+                "range_max": "7.5",
+                "range_step": "0.1"
+            },
+            {
+                "id": "image_size_perc",
+                "type": "range",
+                "label": "Image Size",
+                "range_min": "25",
+                "range_max": "100",
+                "range_step": "2.5"
+            },
+            {
+                "id": "image_border_width",
+                "type": "range",
+                "label": "Image Border-Width",
+                "range_min": "0.5",
+                "range_max": "19",
+                "range_step": "0.5"
+            },
+            {
+                "id": "image_border_type",
+                "type": "select",
+                "label": "Image Border-Type",
+                "selectors": [
+                    "Solid",
+                    "Dashed",
+                    "Double",
+                    "Inset",
+                    "Outset",
+                    "Ridge"
+                ]
+            },
+            {
+                "id": "image_border_color",
+                "type": "color",
+                "label": "Image Border-Color"
+            },
+            {
+                "id": "image_border_show",
+                "type": "checkbox",
+                "label": "Show Image Border"
+            }
+        ]
+    },
+    {
+        "title": "VIDEO",
+        "inputs": [
+            {
+                "id": "target_bg_color",
+                "type": "color",
+                "label": "Target Color"
+            },
+            {
+                "id": "target_border_radius",
+                "type": "range",
+                "label": "Target Border-Radius",
+                "range_min": "0",
+                "range_max": "100",
+                "range_step": "5"
+            },
+            {
+                "id": "target_no_fillout",
+                "type": "checkbox",
+                "label": "Target only Border"
+            },
+            {
+                "id": "video_zoom_to_element",
+                "type": "checkbox",
+                "label": "Zoom to Element"
+            },
+            {
+                "id": "video_speed",
+                "type": "range",
+                "label": "Speed",
+                "range_min": "0.5",
+                "range_max": "5.00",
+                "range_step": "0.5"
+            },
+            {
+                "id": "video_click_animation",
+                "type": "select",
+                "label": "Click Animation",
+                "selectors": [
+                    "Ripple",
+                    "Twinkle"
+                ]
+            },
+            {
+                "id": "video_enable_subtitles",
+                "type": "checkbox",
+                "label": "Enable Subtitles"
+            }
+        ]
+    },
+    {
+        "title": "EXPORT",
+        "inputs": [
+            {
+                "id": "pdf",
+                "type": "export",
+                "label": "PDF",
+                "icon": "fa-regular fa-file-pdf",
+                "value": null,
+                "description": "PDF Document with text"
+            },
+            {
+                "id": "docx",
+                "type": "export",
+                "label": "Word",
+                "icon": "fa-regular fa-file-word",
+                "value": null,
+                "description": "Word Document with text"
+            },
+            {
+                "id": "png",
+                "type": "export",
+                "label": "PNG",
+                "icon": "fa-regular fa-file-image",
+                "value": null,
+                "description": "only Images, no text"
+            },
+            {
+                "id": "mp4",
+                "type": "export",
+                "label": "MP4",
+                "icon": "fa-solid fa-video",
+                "value": null,
+                "description": "full video with subtitles"
+            }
+        ]
+    }
+]
